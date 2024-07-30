@@ -8,7 +8,57 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" style="width: 80px; height: 80px;" href="./Videos/suitcase-svgrepo-com.png">
-
+    <style>
+        @media (min-width:300px) and (max-width:700px){
+            #page1 h1{
+                font-size: 10vw;
+                line-height: 6vw;
+            }
+            .moving{
+                display: none;
+            }
+            #yellow2 h1{
+                font-size:11vw;
+                line-height: 6vw;        
+            }
+            #navtxt p{
+                font-size: 4vw;
+            }
+            #navtxt img{
+                height: 4vw;
+            }
+            .elem h2{
+                font-size:12vw;
+                font-weight: 200;
+            }
+            #page3 h1{
+                font-size: 8vw;
+            }
+            .section h2{
+                font-size: 6vw;
+            }
+            .section p{
+                font-size: 4vw;
+                margin-top: 10px;
+            }
+            .section{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: fit-content;
+            }
+            .sec-left{
+                width: 80%;
+                height:fit-content;
+            }
+            .sec-right{
+                height: 50%;
+                width: 100%;
+                margin-top: 4vw;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -26,7 +76,7 @@
         <video autoplay muted src="./Videos/intro_video.mp4"></video>
     </div>
     <div id="nav">
-        <a href="index.html"><svg width="70px" height="70px" viewBox="0 0 1024 1024" class="icon" version="1.1"
+        <a href="index.html"><svg width="8vw" height="8.8vh" viewBox="0 0 1024 1024" class="icon" version="1.1"
             xmlns="http://www.w3.org/2000/svg" fill="#000000">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -76,11 +126,7 @@
             <h1>Welcome <br><em>To</em> <br> TravelWithUs</h1>
         </div>
         <div id="page2" data-scroll data-scroll-speed="2">
-            <video autoplay muted style="position: absolute;height: 100vh; opacity: 0;"
-                src="./Videos/France.mp4"></video>
-
             <div class="elem" data-scroll data-scroll-speed="1.5" data-scroll-direction="horizontal">
-                <!-- <video style="position: relative; z-index: 0;" src="./Videos/France.mp4"></video> -->
                 <h2>France</h2>
                 <div class="moving">
                     <div class="blur">
@@ -262,7 +308,7 @@
             </div>
         </div>
         <div id="page3">
-            <h1 style=" font-size: 3.2vw;padding: 40px 0px 0px 30px;">Handpicked Collection for You</h1>
+            <h1>Handpicked Collection for You</h1>
             <div class="section">
                 <div class="sec-left" data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">
                     <h2>International Holiday Tour Packages</h2>

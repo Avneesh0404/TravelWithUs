@@ -138,7 +138,10 @@ body {
     text-align: center;
     flex-direction: column;
 }
-
+#page3 h1{
+    font-size: 3.2vw;
+    padding: 40px 0px 0px 30px;
+}
 .elem {
     position: relative;
     width: 100%;
@@ -224,7 +227,6 @@ body {
     height: 100%;
     width: 25%;
     padding-top: 3vh;
-    /* background-color: aqua; */
     border-top: 2px solid #000;
 
 }
@@ -239,7 +241,6 @@ body {
     color: #000;
     margin-top: 10vh;
     font-size: 1.2vw;
-    /* width: 80%; */
 }
 
 .sec-right {
